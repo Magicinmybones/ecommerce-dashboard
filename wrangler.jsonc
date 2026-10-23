@@ -1,0 +1,7 @@
+{
+  "name": "ecommerce-dashboard",
+  "compatibility_date": "2026-10-23",
+  "assets": {
+    "directory": "./site"
+  }
+}

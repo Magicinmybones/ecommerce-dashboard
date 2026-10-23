@@ -1,5 +1,7 @@
 # ecommerce-dashboard
 
+Live site: [https://ecommerce-dashboard.spaceedu-planet-earth.workers.dev](https://ecommerce-dashboard.spaceedu-planet-earth.workers.dev)
+
 Standalone static prototype from `ecommerce-dashboard(1).html`.
 
 The deployable site is in `site/`. Embedded images and fonts were extracted to `site/assets/`.
@@ -7,12 +9,12 @@ The deployable site is in `site/`. Embedded images and fonts were extracted to `
 ## Deploy
 
 ```sh
-npx wrangler pages deploy site --project-name ecommerce-dashboard --branch main
+npx wrangler deploy
 ```
 
 ## Extracted assets
 
-- `site/assets/fonts/font-1.woff2`
-- `site/assets/images/image-1.jpg`
-- `site/assets/images/image-2.png`
-- `site/assets/images/image-3.png`
+- [`assets/fonts/font-1.woff2`](https://ecommerce-dashboard.spaceedu-planet-earth.workers.dev/assets/fonts/font-1.woff2)
+- [`assets/images/image-1.jpg`](https://ecommerce-dashboard.spaceedu-planet-earth.workers.dev/assets/images/image-1.jpg)
+- [`assets/images/image-2.png`](https://ecommerce-dashboard.spaceedu-planet-earth.workers.dev/assets/images/image-2.png)
+- [`assets/images/image-3.png`](https://ecommerce-dashboard.spaceedu-planet-earth.workers.dev/assets/images/image-3.png)
