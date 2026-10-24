@@ -6,6 +6,8 @@ Standalone static prototype from `ecommerce-dashboard(1).html`.
 
 The deployable site is in `site/`. Embedded images and fonts were extracted to `site/assets/`.
 
+The opening dashboard sequence runs once on page load, skips itself for reduced-motion users, and clears its animation styles after 2.3 seconds.
+
 ## Deploy
 
 ```sh
